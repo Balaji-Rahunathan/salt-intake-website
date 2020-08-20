@@ -4,15 +4,16 @@ window.onscroll = function () {
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("header").style.padding = "20px 0";
+    document.getElementById("header").style.padding = "10px 0";
     document.getElementById("header").style.backgroundColor = "#fff";
-
+    document.getElementById("header").style.border = "0";
     document.getElementById("header").style.boxShadow =
       "0px 2px 15px rgba(0, 0, 0, 0.05)";
   } else {
     document.getElementById("header").style.padding = "15px 0";
     document.getElementById("header").style.backgroundColor = "";
     document.getElementById("header").style.boxShadow = "";
+    document.getElementById("header").style.borderTop = "30px solid #88046a";
   }
 }
 

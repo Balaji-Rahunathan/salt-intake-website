@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="350px" height="350px" viewBox="0 0 450 450" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.5 450 0.5 450 452.5 0 452.5"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.843959263">
+        <g id="Artboard">
+            <g id="Group-3" style="mix-blend-mode: multiply;" transform="translate(0.000000, -1.500000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M210.198778,61.7940578 C210.198778,61.7940578 104.366461,-98.7345621 11.5759363,99.7847181 C11.5759363,99.7847181 -68.4555125,375.54192 192.346725,449.84045 C192.346725,449.84045 404.918507,481.203636 447.210296,328.52482 C447.210296,328.52482 473.638055,217.638982 363.810844,194.241593 C363.810844,194.241593 277.662086,201.362919 250.548435,143.890545" id="Fill-1" fill="#D5FFD5" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

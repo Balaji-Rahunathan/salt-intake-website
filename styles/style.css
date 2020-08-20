@@ -48,7 +48,6 @@ a:hover {
   z-index: 997;
   padding: 15px 0;
   border-top: 30px solid #88046a;
-  background: rgba(255, 255, 255, 0.7);
 }
 
 #header .logo img {
@@ -185,7 +184,7 @@ a:hover {
   background-position: center center;
   background-size: cover;
   position: relative;
-  padding: 10% 0;
+  padding: 100px 0;
 }
 
 #banner::before {
@@ -203,11 +202,11 @@ a:hover {
 
 #banner h1 {
   margin: 0;
-  font-size: 32px;
+  font-size: 64px;
   font-weight: 400px;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #319a31;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   font-family: "Amatic SC", cursive;
 }
 
@@ -216,7 +215,7 @@ a:hover {
   font-size: 18px;
   line-height: 1.8;
   color: #58596b;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 768px) {
@@ -254,27 +253,34 @@ a:hover {
   padding-left: 5px;
 }
 
+.banner_image_site {
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat, no-repeat;
+  background-image: url("../assets/images/salt.svg"),
+    url("../assets/images/Kidney.svg");
+  background-blend-mode: multiply;
+}
 /*--------------------------------------------------------------
 # VIDEO
 --------------------------------------------------------------*/
 .video_bg {
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #dff0de;
 }
 
 .video_hed {
-  line-height: 1;
   font-family: "Amatic SC", cursive;
   color: #34a853;
-  font-size: 32px;
   text-align: center;
-  font-weight: bold;
   padding-bottom: 5%;
-  text-transform: uppercase;
+  font-size: 64px;
+  font-weight: 400px;
+  line-height: 1.5;
 }
 /*--------------------------------------------------------------
-# banner
+# salt_chart
 --------------------------------------------------------------*/
 .salt_chart_bg {
   width: 100%;
@@ -283,18 +289,20 @@ a:hover {
   background-position: center center;
   background-size: cover;
   position: relative;
-  padding: 10% 0;
+  padding: 100px 0;
 }
 .salt_chart_bg-title {
-  line-height: 2.5;
   font-family: "Amatic SC", cursive;
   color: #34a853;
-  font-size: 32px;
+
   text-align: center;
-  font-weight: bold;
+
   padding-bottom: 5%;
   text-transform: uppercase;
   color: #34a853;
+  font-size: 64px;
+  font-weight: 400px;
+  line-height: 1.5;
 }
 
 .salt_chart_bg-title::before {
@@ -307,19 +315,28 @@ a:hover {
   background-position: center bottom;
 }
 
+.img-size-salt-chart {
+  width: 70%;
+}
+
 /*--------------------------------------------------------------
 # supermarket
 --------------------------------------------------------------*/
 .supermarket_bg {
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #319a31;
+  background: url("../assets/images/Greenbg.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
 }
 
 .supermarket-title {
   font-family: "Amatic SC", cursive;
-  font-size: 32px;
-  font-weight: bold;
+  font-size: 38px;
+  line-height: 1.5;
+  font-weight: 400px;
   text-transform: uppercase;
   margin-bottom: 0%;
   color: #ffff;
@@ -330,7 +347,7 @@ a:hover {
   text-align: left;
   color: #fff;
   font-size: 18px;
-  padding: 3% 0;
+  padding: 30px 0;
 }
 
 .btn_c {
@@ -353,13 +370,21 @@ a:hover {
 .btn_ico {
   padding-left: 5px;
 }
-
+.super_image_site {
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat, no-repeat;
+  background-image: url("../assets/images/supermarket.svg"),
+    url("../assets/images/Kidney.svg");
+  background-blend-mode: multiply;
+  background-position: center center, center center;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #88046a;
 }
 .address-title {
