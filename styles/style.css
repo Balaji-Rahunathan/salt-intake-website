@@ -11,6 +11,30 @@ a:hover {
   color: #76c7ed;
   text-decoration: none;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7e2572;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7e2572;
+}
 /*--------------------------------------------------------------
 # back-to-top
 --------------------------------------------------------------*/
@@ -93,7 +117,7 @@ a:hover {
 
 .mobile-nav-toggle {
   position: fixed;
-  top: 8%;
+  top: 5%;
   right: 15px;
   z-index: 9998;
   border: 0;
@@ -255,11 +279,12 @@ a:hover {
 
 .banner_image_site {
   width: 100%;
-  height: 350px;
+  height: 500px;
   background-repeat: no-repeat, no-repeat;
-  background-image: url("../assets/images/salt.svg"),
-    url("../assets/images/Kidney.svg");
+  background-image: url("../assets/images/Kidney.svg"),
+    url("../assets/images/salt.svg");
   background-blend-mode: multiply;
+  background-position: center center, center center;
 }
 /*--------------------------------------------------------------
 # VIDEO
@@ -372,10 +397,10 @@ a:hover {
 }
 .super_image_site {
   width: 100%;
-  height: 350px;
+  height: 500px;
   background-repeat: no-repeat, no-repeat;
-  background-image: url("../assets/images/supermarket.svg"),
-    url("../assets/images/Kidney.svg");
+  background-image: url("../assets/images/Kidney.svg"),
+    url("../assets/images/supermarket.svg");
   background-blend-mode: multiply;
   background-position: center center, center center;
 }
@@ -430,6 +455,50 @@ a:hover {
     z-index: 1;
     width: 40%;
   }
+  #banner h1 {
+    padding-top: 30px;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 400px;
+    line-height: 1.2;
+    color: #319a31;
+    padding-bottom: 30px;
+    font-family: "Amatic SC", cursive;
+  }
+  .supermarket-title {
+    font-family: "Amatic SC", cursive;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 400px;
+    text-transform: uppercase;
+    margin-bottom: 0%;
+    color: #ffff;
+    padding-top: 30px;
+  }
+
+  .video_hed {
+    font-family: "Amatic SC", cursive;
+    color: #34a853;
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 32px;
+    font-weight: 400px;
+    line-height: 1.2;
+  }
+  .salt_chart_bg-title {
+    font-family: "Amatic SC", cursive;
+    color: #34a853;
+
+    text-align: center;
+
+    padding-bottom: 5%;
+    text-transform: uppercase;
+    color: #34a853;
+    font-size: 32px;
+    font-weight: 400px;
+    line-height: 1.2;
+  }
+
   ul {
     display: block;
     list-style-type: disc;
@@ -445,5 +514,24 @@ a:hover {
     font-weight: 200;
     font-size: 14px;
     padding-bottom: 15px;
+  }
+  .banner_image_site {
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat, no-repeat;
+    background-image: url("../assets/images/mobile-Kidney.svg"),
+      url("../assets/images/mobile-salt.svg");
+    background-blend-mode: multiply;
+    background-position: center center, center center;
+  }
+
+  .super_image_site {
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat, no-repeat;
+    background-image: url("../assets/images/mobile-Kidney.svg"),
+      url("../assets/images/mobile-supermarket.svg");
+    background-blend-mode: multiply;
+    background-position: center center, center center;
   }
 }
