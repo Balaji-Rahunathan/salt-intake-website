@@ -286,7 +286,7 @@ a:hover {
   padding: 10% 0;
 }
 .salt_chart_bg-title {
-  line-height: 1;
+  line-height: 2.5;
   font-family: "Amatic SC", cursive;
   color: #34a853;
   font-size: 32px;
@@ -294,7 +294,19 @@ a:hover {
   font-weight: bold;
   padding-bottom: 5%;
   text-transform: uppercase;
+  color: #34a853;
 }
+
+.salt_chart_bg-title::before {
+  content: "";
+  display: block;
+  height: 100px;
+
+  background-image: url("../assets/images/head-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
 /*--------------------------------------------------------------
 # supermarket
 --------------------------------------------------------------*/
