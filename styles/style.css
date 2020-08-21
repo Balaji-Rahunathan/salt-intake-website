@@ -281,8 +281,8 @@ html {
   width: 100%;
   height: 500px;
   background-repeat: no-repeat, no-repeat;
-  background-image: url("../assets/images/Kidney.svg"),
-    url("../assets/images/salt.svg");
+  background-image: url("../assets/images/salt.svg"),
+    url("../assets/images/Kidney.svg");
   background-blend-mode: multiply;
   background-position: center center, center center;
 }
@@ -519,8 +519,8 @@ html {
     width: 100%;
     height: 250px;
     background-repeat: no-repeat, no-repeat;
-    background-image: url("../assets/images/mobile-Kidney.svg"),
-      url("../assets/images/mobile-salt.svg");
+    background-image: url("../assets/images/mobile-salt.svg"),
+      url("../assets/images/mobile-Kidney.svg");
     background-blend-mode: multiply;
     background-position: center center, center center;
   }
@@ -529,9 +529,12 @@ html {
     width: 100%;
     height: 250px;
     background-repeat: no-repeat, no-repeat;
-    background-image: url("../assets/images/mobile-Kidney.svg"),
-      url("../assets/images/mobile-supermarket.svg");
+    background-image: url("../assets/images/mobile-supermarket.svg"),
+      url("../assets/images/mobile-Kidney.svg");
     background-blend-mode: multiply;
     background-position: center center, center center;
+  }
+  .img-size-salt-chart {
+    width: 100%;
   }
 }
