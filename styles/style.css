@@ -240,6 +240,7 @@ html {
   line-height: 1.8;
   color: #58596b;
   padding-bottom: 30px;
+  text-align: left;
 }
 
 @media (max-width: 768px) {
