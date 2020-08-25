@@ -227,10 +227,10 @@ html {
 #banner h1 {
   margin: 0;
   font-size: 64px;
-  font-weight: 400px;
+  font-weight: 700 !important;
   line-height: 1.5;
   color: #319a31;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   font-family: "Amatic SC", cursive;
 }
 
@@ -302,7 +302,7 @@ html {
   text-align: center;
   padding-bottom: 5%;
   font-size: 64px;
-  font-weight: 400px;
+  font-weight: 700 !important;
   line-height: 1.5;
 }
 /*--------------------------------------------------------------
@@ -327,7 +327,7 @@ html {
   text-transform: uppercase;
   color: #34a853;
   font-size: 64px;
-  font-weight: 400px;
+  font-weight: 700 !important;
   line-height: 1.5;
 }
 
@@ -362,7 +362,7 @@ html {
   font-family: "Amatic SC", cursive;
   font-size: 64px;
   line-height: 1.5;
-  font-weight: 400px;
+  font-weight: 700 !important;
   text-transform: uppercase;
   margin-bottom: 0%;
   color: #ffff;
@@ -416,7 +416,7 @@ html {
 .address-title {
   color: #fff;
   font-family: "Amatic SC", cursive;
-  font-weight: 200;
+  font-weight: 700 !important;
   font-size: 24px;
   padding-bottom: 15px;
 }
@@ -460,7 +460,7 @@ html {
     padding-top: 30px;
     margin: 0;
     font-size: 32px;
-    font-weight: 400px;
+    font-weight: 700 !important;
     line-height: 1.2;
     color: #319a31;
     padding-bottom: 30px;
@@ -470,7 +470,7 @@ html {
     font-family: "Amatic SC", cursive;
     font-size: 32px;
     line-height: 1.2;
-    font-weight: 400px;
+    font-weight: 700 !important;
     text-transform: uppercase;
     margin-bottom: 0%;
     color: #ffff;
@@ -483,7 +483,7 @@ html {
     text-align: center;
     padding-bottom: 5%;
     font-size: 32px;
-    font-weight: 400px;
+    font-weight: 700 !important;
     line-height: 1.2;
   }
   .salt_chart_bg-title {
@@ -496,7 +496,7 @@ html {
     text-transform: uppercase;
     color: #34a853;
     font-size: 32px;
-    font-weight: 400px;
+    font-weight: 700 !important;
     line-height: 1.2;
   }
 
