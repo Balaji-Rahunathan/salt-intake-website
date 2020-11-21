@@ -13,7 +13,7 @@ function scrollFunction() {
     document.getElementById("header").style.padding = "15px 0";
     document.getElementById("header").style.backgroundColor = "";
     document.getElementById("header").style.boxShadow = "";
-    document.getElementById("header").style.borderTop = "30px solid #88046a";
+    document.getElementById("header").style.borderTop = "30px solid rgb(178,33,51)";
   }
 }
 

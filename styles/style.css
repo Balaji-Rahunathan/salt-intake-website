@@ -28,12 +28,12 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #7e2572;
+  background: rgb(178,33,51);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #7e2572;
+  background: rgb(178,33,51);
 }
 /*--------------------------------------------------------------
 # back-to-top
@@ -54,13 +54,13 @@ html {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #88046a;
+  background: rgb(178,33,51);
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #88046a;
+  background: rgb(178,33,51);
   color: #fff;
 }
 
@@ -71,7 +71,7 @@ html {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  border-top: 30px solid #88046a;
+  border-top: 30px solid rgb(178,33,51);
 }
 
 #header .logo img {
@@ -112,7 +112,7 @@ html {
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-  color: #88046a;
+  color: rgb(178,33,51);
 }
 
 .mobile-nav-toggle {
@@ -131,7 +131,7 @@ html {
 }
 
 .mobile-nav-toggle i {
-  color: #88046a;
+  color: rgb(178,33,51);
 }
 
 .mobile-nav {
@@ -229,7 +229,7 @@ html {
   font-size: 64px;
   font-weight: 700 !important;
   line-height: 1.5;
-  color: #319a31;
+  color: rgb(48,105,87);
   padding-bottom: 0px;
   font-family: "Amatic SC", cursive;
 }
@@ -258,7 +258,7 @@ html {
 }
 .btn_ban {
   padding: 8px 20px;
-  background: #88046a;
+  background: rgb(178,33,51);
   border-radius: 0px;
   color: #fff;
   font-size: 24px;
@@ -267,9 +267,9 @@ html {
   box-shadow: 0 20px 30px 0 rgba(90, 70, 176, 0.3);
 }
 .btn_ban:hover {
-  color: #88046a;
+  color: rgb(178,33,51);
   background: transparent;
-  border-color: #88046a;
+  border-color: rgb(178,33,51);
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -298,7 +298,7 @@ html {
 
 .video_hed {
   font-family: "Amatic SC", cursive;
-  color: #34a853;
+  color: rgb(48,105,87);
   text-align: center;
   padding-bottom: 5%;
   font-size: 64px;
@@ -319,13 +319,13 @@ html {
 }
 .salt_chart_bg-title {
   font-family: "Amatic SC", cursive;
-  color: #34a853;
+  color: rgb(48,105,87);
 
   text-align: center;
 
   padding-bottom: 5%;
   text-transform: uppercase;
-  color: #34a853;
+  color:rgb(48,105,87);
   font-size: 64px;
   font-weight: 700 !important;
   line-height: 1.5;
@@ -351,7 +351,7 @@ html {
 .supermarket_bg {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #319a31;
+  background-color: rgb(48,105,87);
   background: url("../assets/images/Greenbg.png") no-repeat;
   background-position: center center;
   background-size: cover;
@@ -378,7 +378,7 @@ html {
 
 .btn_c {
   padding: 8px 20px;
-  background: #88046a;
+  background: rgb(178,33,51);
   border-radius: 0px;
   color: #fff;
   font-size: 24px;
@@ -387,9 +387,9 @@ html {
   box-shadow: 0 20px 30px 0 rgba(90, 70, 176, 0.3);
 }
 .btn_c:hover {
-  color: #88046a;
+  color: rgb(178,33,51);
   background: transparent;
-  border-color: #88046a;
+  border-color: rgb(178,33,51);
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -411,7 +411,7 @@ html {
 #footer {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #88046a;
+  background-color: rgb(178,33,51);
 }
 .address-title {
   color: #fff;
@@ -467,7 +467,7 @@ html {
     font-size: 32px;
     font-weight: 700 !important;
     line-height: 1.2;
-    color: #319a31;
+    color: rgb(48,105,87);
     padding-bottom: 30px;
     font-family: "Amatic SC", cursive;
   }
@@ -493,13 +493,13 @@ html {
   }
   .salt_chart_bg-title {
     font-family: "Amatic SC", cursive;
-    color: #34a853;
+    color: rgb(48,105,87);
 
     text-align: center;
 
     padding-bottom: 5%;
     text-transform: uppercase;
-    color: #34a853;
+    color: rgb(48,105,87);
     font-size: 32px;
     font-weight: 700 !important;
     line-height: 1.2;
