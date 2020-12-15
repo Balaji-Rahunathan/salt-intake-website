@@ -412,7 +412,7 @@ a:hover {color: rgb(178,33,51)}
 --------------------------------------------------------------*/
 #footer {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 12px;
   /* background-color: rgb(178,33,51);*/
   /* background-color: #E1EDE1;  */
   color: rgb(178,33,51);
