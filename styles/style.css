@@ -74,8 +74,10 @@ html {
   border-top: 30px solid rgb(178,33,51);
 }
 
+.logo.mr-auto{width: 200px;}
+
 #header .logo img {
-  width: 60%;
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -562,6 +564,9 @@ a:hover {color: rgb(178,33,51)}
   .footer_logo {
     width: 80%;
   }
+
+  .logo.mr-auto{width: 160px;}
+
 }
 @media only screen and (max-width: 1050px) {
   .animateOnce {
