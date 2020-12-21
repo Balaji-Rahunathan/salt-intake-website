@@ -290,6 +290,7 @@ a:hover {color: rgb(178,33,51)}
     url("../assets/images/Kidney.svg");
   background-blend-mode: multiply;
   background-position: center center, center center;
+  z-index: 0;
 }
 /*--------------------------------------------------------------
 # VIDEO
@@ -404,9 +405,8 @@ a:hover {color: rgb(178,33,51)}
   width: 100%;
   height: 500px;
   background-repeat: no-repeat, no-repeat;
-  background-image: url("../assets/images/Kidney.svg"),
-    url("../assets/images/supermarket.png");
-  background-blend-mode: multiply;
+  background-image:url("../assets/images/supermarket.png"), url("../assets/images/Kidney.svg");
+  /* background-blend-mode: multiply; */
   background-position: center center, center center;
 }
 /*--------------------------------------------------------------
@@ -552,10 +552,10 @@ a:hover {color: rgb(178,33,51)}
     width: 100%;
     height: 250px;
     background-repeat: no-repeat, no-repeat;
-    background-image: url("../assets/images/mobile-supermarket.png"),
-      url("../assets/images/mobile-Kidney.svg");
-    background-blend-mode: multiply;
+    background-image: url("../assets/images/mobile-supermarket.png"),url("../assets/images/mobile-Kidney.svg");
+    /* background-blend-mode: multiply; */
     background-position: center center, center center;
+    
   }
   .img-size-salt-chart {
     width: 100%;
